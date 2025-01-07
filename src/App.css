@@ -1,0 +1,186 @@
+/* App.css */
+
+/* Gallery Header */
+.gallery-title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Grid Layout for Gallery */
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .gallery-item {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .gallery-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-item:hover .gallery-image {
+    transform: scale(1.05);
+  }
+  
+  .overlay-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    font-size: 1rem;
+    max-width: 90%;
+  }
+  
+  /* Modal Styling */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    max-width: 90%;
+    max-height: 80%;
+    overflow: auto;
+  }
+  
+  .modal-image {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    margin-bottom: 10px;
+  }
+  
+  .modal-remembrance {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .modal-close {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .modal-close:hover {
+    background-color: #d32f2f;
+  }
+/* App.css */
+
+/* General Styles for Navbar */
+.navbar {
+  background-color: #333; /* Dark background for the navbar */
+  padding: 10px;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+  position: sticky;  /* Stick the navbar to the top */
+  top: 0;  /* Always on top */
+  z-index: 1000;  /* Stay on top of other elements */
+  overflow: hidden;  /* Hide overflowing items */
+  width: 100%;  /* Full width */
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;  /* Spread out the items evenly */
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 5px;  /* Rounded corners for links */
+}
+
+.nav-link:hover {
+  background-color: #555;  /* Slightly lighter on hover */
+  color: #ffd700;  /* Gold color for text on hover */
+}
+
+.nav-link:active {
+  background-color: #444;  /* Darken the background when active */
+}
+
+/* Responsive Styles for Mobile Devices */
+@media (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;  /* Stack the links vertically on mobile */
+    align-items: center;  /* Center the items */
+  }
+
+  .nav-link {
+    font-size: 20px;  /* Increase font size for readability */
+    padding: 15px 25px;  /* Increase padding for easier tapping */
+    width: 100%;  /* Make links span the full width of the navbar */
+    text-align: center;
+  }
+
+  .navbar {
+    padding: 15px 10px;  /* Adjust padding for mobile */
+  }
+}
+/* HerStory.css */
+
+/* Ensure the background image covers the entire page */
+.her-story-container {
+  background-image: url('./assets/image26.jpg'); /* Path to your image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Keeps the image fixed when scrolling */
+  height: 100vh; /* Full screen height */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.7); /* Darker background on hover */
+}
+/* Timeline.css */
+
