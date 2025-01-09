@@ -151,36 +151,3 @@
 }
 /* HerStory.css */
 
-/* Ensure the background image covers the entire page */
-.her-story-container {
-  background-image: url('./assets/image26.jpg'); /* Path to your image */
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; /* Keeps the image fixed when scrolling */
-  height: 100vh; /* Full screen height */
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 20px;
-}
-
-button {
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  margin: 5px;
-  font-size: 16px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: rgba(0, 0, 0, 0.7); /* Darker background on hover */
-}
-/* Timeline.css */
-

@@ -28,6 +28,43 @@ import image23 from './assets/image23.jpg';
 import image24 from './assets/image24.jpg';
 import image25 from './assets/image25.jpg';
 import image26 from './assets/image26.jpg';
+import image27 from './assets/image27.jpg';
+import image28 from './assets/image28.jpg';
+import image29 from './assets/image29.jpg';
+import image30 from './assets/image30.jpg';
+import image31 from './assets/image31.jpg';
+import image32 from './assets/image32.jpg';
+import image33 from './assets/image33.jpg';
+import image34 from './assets/image34.jpg';
+import image35 from './assets/image35.jpg';
+import image36 from './assets/image36.jpg';
+import image37 from './assets/image37.jpg';
+import image38 from './assets/image38.jpg';
+import image39 from './assets/image39.jpg';
+import image40 from './assets/image40.jpg';
+import image41 from './assets/image41.jpg';
+import image42 from './assets/image42.jpg';
+import image43 from './assets/image43.jpg';
+import image44 from './assets/image44.jpg';
+import image45 from './assets/image45.jpg';
+import image46 from './assets/image46.jpg';
+import image47 from './assets/image47.jpg';
+import image48 from './assets/image48.jpg';
+import image49 from './assets/image49.jpg';
+import image50 from './assets/image50.jpg';
+import image51 from './assets/image51.jpg';
+import image52 from './assets/image52.jpg';
+import image53 from './assets/image53.jpg';
+import image54 from './assets/image54.jpg';
+import image55 from './assets/image55.jpg';
+import image56 from './assets/image56.jpg';
+import image57 from './assets/image57.jpg';
+import image58 from './assets/image58.jpg';
+import image59 from './assets/image59.jpg';
+import image60 from './assets/image60.jpg';
+import image61 from './assets/image61.jpg';
+import image62 from './assets/image62.jpg';
+
 // ... Add other imports as needed
 
 const allImages = [
@@ -57,6 +94,42 @@ const allImages = [
   { src: image24, alt: "Memory 24", remembrance: "Forever cherished in our hearts." },
   { src: image25, alt: "Memory 25", remembrance: "You will always be remembered." },
   { src: image26, alt: "Memory 26", remembrance: "In loving memory of a beautiful soul." },
+  { src: image27, alt: "Memory 27", remembrance: "Your memory will always be a blessing." },
+  { src: image28, alt: "Memory 28", remembrance: "Forever in our hearts." },
+  { src: image29, alt: "Memory 29", remembrance: "In loving memory of a life so beautifully lived." },
+  { src: image30, alt: "Memory 30", remembrance: "Your spirit will forever shine in our hearts." },
+  { src: image31, alt: "Memory 31", remembrance: "Forever cherished in our hearts." },
+  { src: image32, alt: "Memory 32", remembrance: "You will always be remembered." },
+  { src: image33, alt: "Memory 33", remembrance: "In loving memory of a beautiful soul." },
+  { src: image34, alt: "Memory 34", remembrance: "Your memory will always be a blessing." },
+  { src: image35, alt: "Memory 35", remembrance: "Forever in our hearts." },
+  { src: image36, alt: "Memory 36", remembrance: "In loving memory of a beautiful soul." },
+  { src: image37, alt: "Memory 37", remembrance: "Your memory will always be a blessing." },
+  { src: image38, alt: "Memory 38", remembrance: "Forever in our hearts." },
+  { src: image39, alt: "Memory 39", remembrance: "In loving memory of a beautiful soul." },
+  { src: image40, alt: "Memory 40", remembrance: "Your memory will always be a blessing." },
+  { src: image41, alt: "Memory 41", remembrance: "Forever in our hearts." },
+  { src: image42, alt: "Memory 42", remembrance: "In loving memory of a beautiful soul." },
+  { src: image43, alt: "Memory 43", remembrance: "Your memory will always be a blessing." },
+  { src: image44, alt: "Memory 44", remembrance: "Forever in our hearts." },
+  { src: image45, alt: "Memory 45", remembrance: "In loving memory of a beautiful soul." },
+  { src: image46, alt: "Memory 46", remembrance: "Your memory will always be a blessing." },
+  { src: image47, alt: "Memory 47", remembrance: "Forever in our hearts." },
+  { src: image48, alt: "Memory 48", remembrance: "Forever in our hearts." },
+  { src: image49, alt: "Memory 49", remembrance: "In loving memory of a beautiful soul." },
+  { src: image50, alt: "Memory 50", remembrance: "Your memory will always be a blessing." },
+  { src: image51, alt: "Memory 51", remembrance: "Forever in our hearts." },
+  { src: image52, alt: "Memory 52", remembrance: "In loving memory of a beautiful soul." },
+  { src: image53, alt: "Memory 53", remembrance: "Your memory will always be a blessing." },
+  { src: image54, alt: "Memory 54", remembrance: "Forever in our hearts." },
+  { src: image55, alt: "Memory 55", remembrance: "In loving memory of a beautiful soul." },
+  { src: image56, alt: "Memory 56", remembrance: "Your memory will always be a blessing." },
+  { src: image57, alt: "Memory 57", remembrance: "Forever in our hearts." },
+  { src: image58, alt: "Memory 58", remembrance: "In loving memory of a beautiful soul." },
+  { src: image59, alt: "Memory 59", remembrance: "Your memory will always be a blessing." },
+  { src: image60, alt: "Memory 60", remembrance: "Forever in our hearts." },
+  { src: image61, alt: "Memory 61", remembrance: "In loving memory of a beautiful soul." },
+  { src: image62, alt: "Memory 62", remembrance: "Your memory will always be a blessing." },
   // Add other images as needed...
 ];
 

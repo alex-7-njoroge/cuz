@@ -15,6 +15,8 @@ function App() {
           <Route path="/" element={<HerStory />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/timeline" element={<Timeline />} />
+          
+          
         </Routes>
       </div>
     </Router>

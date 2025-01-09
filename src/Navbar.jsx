@@ -9,6 +9,7 @@ function Navbar() {
         <li><Link to="/">Her Story/Eulogy</Link></li>
         <li><Link to="/gallery">Gallery</Link></li>
         <li><Link to="/timeline">Timeline</Link></li>
+  
       </ul>
     </nav>
   );
