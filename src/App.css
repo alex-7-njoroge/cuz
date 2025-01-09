@@ -94,13 +94,12 @@
 /* General Styles for Navbar */
 .navbar {
   background-color: #333; /* Dark background for the navbar */
-  padding: 10px;
   font-family: 'Arial', sans-serif;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
-  position: sticky;  /* Stick the navbar to the top */
+  position:relative;  /* Stick the navbar to the top */
   top: 0;  /* Always on top */
   z-index: 1000;  /* Stay on top of other elements */
-  overflow: hidden;  /* Hide overflowing items */
+  overflow: visible;
   width: 100%;  /* Full width */
 }
 
