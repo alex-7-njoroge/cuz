@@ -91,62 +91,64 @@
   }
 /* App.css */
 
-/* General Styles for Navbar */
+
+
+/* Base styling for the navbar */
 .navbar {
-  background-color: #333; /* Dark background for the navbar */
-  font-family: 'Arial', sans-serif;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
-  position:relative;  /* Stick the navbar to the top */
-  top: 0;  /* Always on top */
-  z-index: 1000;  /* Stay on top of other elements */
-  overflow: visible;
-  width: 100%;  /* Full width */
+  background-color: #333;
+  padding: 10px;
 }
 
-.nav-list {
-  display: flex;
-  justify-content: space-around;  /* Spread out the items evenly */
-  align-items: center;
+.navbar-list {
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.nav-link {
-  color: white;
+.navbar-list li {
+  padding: 10px;
+}
+
+.navbar-list a {
   text-decoration: none;
-  font-size: 18px;
-  padding: 10px 20px;
-  transition: background-color 0.3s ease, color 0.3s ease;
-  border-radius: 5px;  /* Rounded corners for links */
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s;
 }
 
-.nav-link:hover {
-  background-color: #555;  /* Slightly lighter on hover */
-  color: #ffd700;  /* Gold color for text on hover */
+.navbar-list a:hover {
+  color: #4CAF50; /* Highlight color on hover */
 }
 
-.nav-link:active {
-  background-color: #444;  /* Darken the background when active */
-}
-
-/* Responsive Styles for Mobile Devices */
+/* Mobile-specific styles */
 @media (max-width: 768px) {
-  .nav-list {
-    flex-direction: column;  /* Stack the links vertically on mobile */
-    align-items: center;  /* Center the items */
+  .navbar-list {
+    justify-content: space-around; /* Spread items evenly across */
+    text-align: center; /* Center text for smaller screens */
   }
 
-  .nav-link {
-    font-size: 20px;  /* Increase font size for readability */
-    padding: 15px 25px;  /* Increase padding for easier tapping */
-    width: 100%;  /* Make links span the full width of the navbar */
-    text-align: center;
+  .navbar-list li {
+    padding: 8px 12px;
   }
 
-  .navbar {
-    padding: 15px 10px;  /* Adjust padding for mobile */
+  .navbar-list a {
+    font-size: 14px;
   }
 }
-/* HerStory.css */
+
+/* Optional: Additional responsive design improvements for very small screens */
+@media (max-width: 480px) {
+  .navbar {
+    padding: 8px;
+  }
+
+  .navbar-list li {
+    padding: 6px 10px;
+  }
+}
+
 

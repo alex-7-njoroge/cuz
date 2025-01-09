@@ -38,23 +38,51 @@ function HerStory() {
       backgroundSize: 'cover',           // Ensure the image covers the whole page
       backgroundPosition: 'center',      // Center the image
       backgroundAttachment: 'fixed',     // Keep the background fixed when scrolling
-      height: '70vh',                   // Full viewport height
+      height: '100vh',                   // Full viewport height
       color: 'white',                    // Set text color to white for visibility
       display: 'flex',
       flexDirection: 'column',
-      justifyContent: 'center',
+      justifyContent: 'space-between',   // Ensure content is spaced between top and bottom
       alignItems: 'center',
       textAlign: 'center',               // Center text
       padding: '20px',
     }}>
-      <h1>Her Story / Eulogy</h1>
-      <div>
-        <button onClick={() => setLanguage("english")}>English</button>
-        <button onClick={() => setLanguage("kikuyu")}>Kikuyu</button>
+      <div style={{ flex: 1 }}>
+        <h1>Her Story / Eulogy</h1>
+        <p>{eulogy[language]}</p>
+        <h2>Life of Caroline Wanjiku Njung'e</h2>
+        <p>[We as your family, friends we cherish the moments we shared together]</p>
       </div>
-      <p>{eulogy[language]}</p>
-      <h2>Life of Caroline Wanjiku Njung'e</h2>
-      <p>[We as your family, friends we cherish the moments we shared together]</p>
+
+      {/* Language Buttons at the Bottom */}
+      <div style={{ marginTop: 'auto', padding: '10px' }}>
+        <button 
+          onClick={() => setLanguage("english")}
+          style={{ 
+            padding: '10px 20px', 
+            margin: '5px', 
+            backgroundColor: '#4CAF50', 
+            color: 'white', 
+            border: 'none', 
+            borderRadius: '5px',
+            cursor: 'pointer',
+          }}>
+          English
+        </button>
+        <button 
+          onClick={() => setLanguage("kikuyu")}
+          style={{
+            padding: '10px 20px',
+            margin: '5px',
+            backgroundColor: '#4CAF50',
+            color: 'white',
+            border: 'none',
+            borderRadius: '5px',
+            cursor: 'pointer',
+          }}>
+          Kikuyu
+        </button>
+      </div>
     </div>
   );
 }
